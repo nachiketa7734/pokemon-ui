@@ -66,7 +66,7 @@ const PokemonList = () => {
         loadMore();
       }
       timeout = null;
-    }, 200); // 🔥 throttle
+    }, 200);
   };
 
   window.addEventListener("scroll", handleScroll);
